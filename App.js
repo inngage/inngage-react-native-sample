@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  Alert
 } from 'react-native';
 
 import {
