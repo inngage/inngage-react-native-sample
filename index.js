@@ -9,7 +9,8 @@ import Inngage from '@inngageregistry/inngage-react'
 
 
 const props = {
-  appToken: '316abc26e9dcb2a4b93ac633e461e22f'
+  appToken: '316abc26e9dcb2a4b93ac633e461e22f',
+  enableAlert: false
 }
 Inngage.GetPermission(props)
 
