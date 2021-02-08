@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@inngageregistry/inngage-react": "^2.0.5",
+    "@inngageregistry/inngage-react": "^2.2.3",
     "@react-native-community/async-storage": "react-native-community/async-storage",
     "@react-native-community/geolocation": "^2.0.2",
     "@react-native-firebase/app": "^8.4.5",
