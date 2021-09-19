@@ -132,7 +132,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
+        multiDexEnabled true        
     }
     splits {
         abi {
@@ -208,6 +208,9 @@ dependencies {
         releaseImplementation files(hermesPath + "hermes-release.aar")
     } else {
         implementation jscFlavor
+    }
+    implementation ("androidx.browser:browser:1.3.0"){
+        force = true
     }
 }
 
