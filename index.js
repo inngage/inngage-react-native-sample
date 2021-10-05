@@ -27,8 +27,8 @@ Inngage.SendEvent(
       event_values: {
         nome_promo: "10OFF",
         categoria: "Fast Food",
-        foto_promo: "https://inngage.com.br/wp-content/uploads/2021/08/Promo.png",
-        redirect_link: "https://amo.oferta/21njnfa"
+        foto_promo: "https://inngage.com.br/wp-content/uploads/2021/08/calcular-efetividade-push-1.png",
+        redirect_link: "https:/inngage.com.br"
       }
     },
     authKey: 'teste'
