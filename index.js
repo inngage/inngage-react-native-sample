@@ -12,7 +12,7 @@ const props = {
   enableAlert: false,
   authKey: 'teste'
 };
-
+try{
 Inngage.GetPermission(props);
 Inngage.Subscription(props);
 Inngage.SendEvent(
@@ -35,5 +35,7 @@ Inngage.SendEvent(
   }
 )
 
-
+}catch(e){
+  console.log(e)
+}
 AppRegistry.registerComponent(appName, () => App);
